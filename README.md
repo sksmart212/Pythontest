@@ -1,15 +1,7 @@
-# FastAPI_azure
-Creating a FAST API service on azure
+# Deploy a Python (Flask) web app to Azure App Service - Sample Application
 
-# Confiuration 
+This is the sample Flask application for the Azure Quickstart [Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python).  For instructions on how to create the Azure resources and deploy the application to Azure, refer to the Quickstart article.
 
-1. create virtualenv `virtualvenv venv`
-2. run `source venv/bin/activate`
-3. run `pip install -r requirements.txt`
+A Django sample application is also available for the article at [https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart).
 
-# running FAST API
-
-run the following command to start `uvicorn api.main:app --reload`
-
-- http://127.0.0.1:8000/docs => Documentation of the API
-- http://127.0.0.1:8000 => API end point 
+If you need an Azure account, you can [create on for free](https://azure.microsoft.com/en-us/free/).
